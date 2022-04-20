@@ -1,0 +1,21 @@
+.logo{
+    @media screen and (max-width: 480px){
+
+    
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+    &__web {
+        color: green;
+    }
+    &__header-studio{
+        color: var(--main-color);
+    }
+    &__footer-studio {
+          color: var(--white-color);
+    }  
+}
+}

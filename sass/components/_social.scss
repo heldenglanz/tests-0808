@@ -1,0 +1,32 @@
+.social-block{
+    display: flex;
+    justify-content: center;
+    &__link{
+        display: block;
+        padding: 12px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        
+        transition-property: background-color;
+        &:hover, &:focus{
+            background-color: var(--accent-color);
+        }
+      }
+  }
+  .social-block__item:not(:last-child){
+    margin-right: 10px;
+  }
+  
+  .social-block__icon{
+    fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
+    transition-property:fill, background-color;
+    .social-block__link:hover > &,
+    .social-block__link:focus > &{
+        fill: var(--white-color);
+    }
+  }
+  
+  

@@ -1,0 +1,51 @@
+
+  
+  .duration{
+  transition-duration:250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay:250ms;
+  }
+  
+  .is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  
+  .button {
+  display: flex;
+  font-family: inherit, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: none; 
+  cursor: pointer;
+  }
+  
+  .main-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-width: 200px;
+    height: 50px;
+    background-color: var(--accent-color);
+  color: var(--white-color);
+  }
+  .container {
+   
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media screen and (min-width:480px) {
+      width: 480px;
+    }
+
+    @media screen and (min-width:768px) {
+      width: 768px;
+    }
+  }

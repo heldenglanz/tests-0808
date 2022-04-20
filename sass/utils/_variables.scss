@@ -1,0 +1,54 @@
+*{
+  outline:solid 1px firebrick;
+}
+
+
+:root {
+    --main-color: #212121;
+    --second-color: #757575;
+    --white-color: #FFFFFF;
+    --accent-color: #2196f3;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+    
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+   
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--white-color);
+    color: var(--main-color);
+  }
+  
+  
+  link,
+  a,
+  ul {
+    text-decoration: none;
+    list-style: none;
+  }
+  ul {
+    padding-inline-start: 0;
+  }
+  
